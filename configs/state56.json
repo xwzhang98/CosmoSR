@@ -1,0 +1,21 @@
+{
+  "lr_directory": "LR_selected_100_train",
+  "hr_directory": "HR_selected_100_train",
+  "crop": 72,
+  "in_pad": 3,
+  "tgt_pad": 0,
+  "aug_shift": 36,
+  "batch_size": 1,
+  "loader_workers": 24,
+  "epochs": 9999,
+  "lr": 1e-5,
+  "adv_lr": 2e-5,
+  "betas": [0.0, 0.99],
+  "adv_start": 1,
+  "gp_interval": 16,
+  "div_data": true,
+  "div_shuffle_dist": 3,
+  "save_interval": 0,
+  "log_interval": 100,
+  "seed": 42
+}
